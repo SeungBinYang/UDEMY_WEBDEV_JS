@@ -14,4 +14,16 @@ function calculateAdultYears(userAge) {
 }
 
 totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+console.log(totalAdultYears);
+
+console.log(totalAdultYears);
+
+let person = {
+  name: "Seungbin", // Property
+  greet() {
+    // Method
+    console.log("Hello!");
+  },
+};
+
+person.greet();
